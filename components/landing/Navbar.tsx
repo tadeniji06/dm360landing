@@ -51,13 +51,13 @@ const Navbar = ({ onSignup }: { onSignup: () => void }) => {
 			>
 				<Link
 					href='/'
-					className='flex items-center gap-2 md:gap-3 group shrink-0'
+					className='flex-1 flex items-center justify-start group shrink-0'
 				>
-					<div className='w-[140px] md:w-[200px] h-[35px] md:h-[50px] flex items-center justify-center p-1 group-hover:rotate-2 transition-all duration-300'>
+					<div className='w-[110px] sm:w-[140px] md:w-[200px] h-[30px] md:h-[50px] flex items-center justify-start transition-all duration-300'>
 						<Image
 							src={dm360}
 							alt='DM360 Logo'
-							className='w-full h-full object-contain'
+							className='w-full h-full object-contain object-left'
 						/>
 					</div>
 				</Link>
@@ -137,12 +137,12 @@ const Navbar = ({ onSignup }: { onSignup: () => void }) => {
 					</a>
 				</div>
 
-				<div className='flex items-center gap-2 md:gap-4'>
+				<div className='flex items-center gap-1.5 md:gap-4 ml-auto'>
 					<motion.button
 						whileHover={{ scale: 1.05 }}
 						whileTap={{ scale: 0.95 }}
 						onClick={onSignup}
-						className='bg-primary-brand text-white px-5 md:px-8 py-2 md:py-3.5 rounded-xl md:rounded-2xl font-bold text-xs md:text-sm shadow-xl shadow-blue-500/30 active:scale-95 transition-all text-nowrap'
+						className='bg-primary-brand text-white px-3 md:px-8 py-2 md:py-3.5 rounded-lg md:rounded-2xl font-bold text-[10px] md:text-sm shadow-xl shadow-blue-500/30 active:scale-95 transition-all text-nowrap'
 					>
 						Join Waitlist
 					</motion.button>
@@ -150,9 +150,9 @@ const Navbar = ({ onSignup }: { onSignup: () => void }) => {
 					{/* Mobile Toggle */}
 					<button
 						onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-						className='lg:hidden p-2 text-zinc-500 hover:text-primary-brand transition-colors'
+						className='lg:hidden p-1.5 text-zinc-500 hover:text-primary-brand transition-colors flex items-center justify-center shrink-0 border border-zinc-100 rounded-lg'
 					>
-						{isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+						{isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
 					</button>
 				</div>
 

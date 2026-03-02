@@ -61,31 +61,21 @@ const Hero = ({ onSignup }: HeroProps) => {
 					Join the Elite Marketers
 				</motion.div>
 
-				<div className='flex flex-col gap-6'>
-					<motion.h1
-						initial={{ opacity: 0, scale: 0.9, filter: "blur(10px)" }}
-						animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
-						transition={{ duration: 0.8 }}
-						className='text-5xl md:text-8xl font-black tracking-tighter leading-[0.85] uppercase'
-					>
+				<div className='flex flex-col gap-6 items-center text-center'>
+					<h1 className='text-5xl md:text-8xl font-black tracking-tighter leading-[0.85] uppercase'>
 						Ultimate <br />
 						<span className='text-zinc-900 drop-shadow-2xl'>
 							Marketing
 						</span>{" "}
 						<br />
 						Automation
-					</motion.h1>
+					</h1>
 
-					<motion.p
-						initial={{ opacity: 0, y: 20 }}
-						animate={{ opacity: 1, y: 0 }}
-						transition={{ delay: 0.3, duration: 0.6 }}
-						className='text-xl md:text-2xl text-blue-100 max-w-3xl leading-relaxed font-medium'
-					>
+					<p className='text-xl md:text-2xl text-blue-100 max-w-3xl leading-relaxed font-medium'>
 						The all-in-one suite designed to scale your business
 						effortlessly. Automate your marketing and dominate your
 						market.
-					</motion.p>
+					</p>
 				</div>
 
 				<motion.form
