@@ -31,8 +31,8 @@ export default function Home() {
 				<Hero onSignup={() => setIsModalOpen(true)} />
 
 				<div className='relative z-10 -mt-16 bg-[#f1f1f1] rounded-t-[60px] md:rounded-t-[160px] pb-32'>
-					<Connect />
 					<FeaturesGrid />
+					<Connect />
 					<Extras />
 
 					{/* Simple Footer style section */}

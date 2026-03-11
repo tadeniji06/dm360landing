@@ -44,7 +44,7 @@ const Extras = () => {
 						>
 							<span className='w-12 h-1 bg-primary-brand rounded-full' />
 							<span className='text-primary-brand font-black uppercase tracking-[0.3em] text-[10px]'>
-								Scale Faster
+								Fullstack Growth
 							</span>
 						</motion.div>
 						<motion.h2
@@ -54,9 +54,9 @@ const Extras = () => {
 							transition={{ delay: 0.1 }}
 							className='text-5xl md:text-7xl font-black text-zinc-900 leading-[0.9] tracking-tighter uppercase'
 						>
-							Automate your <br />
+							Fullstack <br />
 							<span className='text-primary-brand italic'>
-								success.
+								Automation.
 							</span>
 						</motion.h2>
 					</div>

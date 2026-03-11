@@ -50,7 +50,7 @@ const FeaturesGrid = () => {
 					viewport={{ once: true }}
 					className='text-primary-brand font-black uppercase tracking-[0.3em] text-xs'
 				>
-					Seamless Integration
+					Fullstack Architecture
 				</motion.span>
 				<motion.h2
 					initial={{ opacity: 0, y: 20 }}
@@ -59,8 +59,8 @@ const FeaturesGrid = () => {
 					transition={{ delay: 0.1 }}
 					className='text-5xl md:text-7xl font-black text-zinc-900 leading-[0.9] tracking-tighter'
 				>
-					Everything in{" "}
-					<span className='text-primary-brand'>One Suite.</span>
+					The Complete{" "}
+					<span className='text-primary-brand'>Fullstack Suite.</span>
 				</motion.h2>
 				<motion.p
 					initial={{ opacity: 0, y: 20 }}
@@ -69,8 +69,7 @@ const FeaturesGrid = () => {
 					transition={{ delay: 0.2 }}
 					className='text-zinc-500 text-lg md:text-xl font-medium leading-relaxed'
 				>
-					Ditch the 10+ stress-inducing tools. DM360 is the only suite
-					you'll ever need.
+					Ditch the fragmented tools. DM360 provides the complete fullstack infrastructure your marketing team needs.
 				</motion.p>
 			</div>
 

@@ -58,12 +58,12 @@ const Hero = ({ onSignup }: HeroProps) => {
 					className='inline-flex items-center gap-3 bg-white/10 px-6 py-2.5 rounded-full text-xs font-black backdrop-blur-xl border border-white/20 shadow-2xl uppercase tracking-[0.2em]'
 				>
 					<span className='flex h-3 w-3 rounded-full bg-blue-300 animate-ping' />
-					Join the Elite Marketers
+					The Fullstack Advantage
 				</motion.div>
 
 				<div className='flex flex-col gap-6 items-center text-center'>
 					<h1 className='text-5xl md:text-8xl font-black tracking-tighter leading-[0.85] uppercase'>
-						Ultimate <br />
+						Fullstack <br />
 						<span className='text-zinc-900 drop-shadow-2xl'>
 							Marketing
 						</span>{" "}
@@ -72,9 +72,8 @@ const Hero = ({ onSignup }: HeroProps) => {
 					</h1>
 
 					<p className='text-xl md:text-2xl text-blue-100 max-w-3xl leading-relaxed font-medium'>
-						The all-in-one suite designed to scale your business
-						effortlessly. Automate your marketing and dominate your
-						market.
+						The complete fullstack marketing operating system designed to scale your business effortlessly. 
+						Automate your entire marketing stack and dominate your market.
 					</p>
 				</div>
 
